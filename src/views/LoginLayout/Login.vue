@@ -1,66 +1,47 @@
 <template>
-
-    <div id="app">
-        <div class="container">
-        <section class="form my-4 mx-5">
-            <div class="container container-style">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" class="img-fluid" alt="" height="300px" width="400px">
-                    </div>
-                    <div class="col-lg-7">
-                        <form action="">
-                            <div class="form-row">
-                                <div class="col-lg-7">
-                                    <input type="email" name="" id="">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col-lg-7">
-                                    <input type="password" name="" id="">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <div id="app">
+    <div class="card mb-3 " style="max-width: 540px">
+      <div class="row g-0 justify-content-center">
+        <div class="col-md-4">
+          <img src="https://picsum.photos/200/300" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title text-center">LOGIN</h1>
+            <form action="">
+                <label for="">E-mail</label>
+                <input class="form-control" type="text">
+                <label for="">Senha</label>
+                <input class="form-control" type="text">
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-
-
-
-
+  </div>
 </template>
 
 
 
 <script>
-    export default {
+import "bootstrap";
 
-    }
+export default {};
 </script>
 
 
-<style scoped>
+<style>
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
-.container-style {
-    text-align: center;
+#app {
+    background-color: red;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(2,0,36);
-    margin: 0;
-    padding: 0;
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,129,9,1) 100%, rgba(0,212,255,1) 100%);
+    background: rgb(240,3,3);
+    background: linear-gradient(90deg, rgba(240,3,3,1) 14%, rgba(247,129,9,1) 96%);
 }
+
 
 
 </style>
